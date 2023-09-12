@@ -1,0 +1,111 @@
+*{
+padding:0;
+margin:0;
+font-family :sans-seriff;
+box-sizing:border-box;
+}
+.hero
+{
+height:100vh;
+width:100%;
+background-color:pink;
+background-image:url(hu.png);
+background-size:cover;
+background-position:center;
+
+}
+nav{
+display:flex;
+align-items:center;
+padding-left:30%;
+padding-right:10%;
+word-spacing:80px;
+
+}
+nav ul{
+display:flex;	;
+float:right;
+
+}
+nav ul li{
+padding: 0px 20px;
+}
+
+.name{
+font-weight:bold;
+font-size:55px;
+color: white;
+}
+span{
+font-weight:bold;
+color:pink;
+}
+nav ul li a{
+font-size:30px;
+color:white;
+font-weight:bold;
+text-decoration:none;
+}
+
+nav ul li a:hover{
+color: pink;
+transition:1s;
+}
+.button:hover{
+color: black;
+transition:1s;
+}
+.button{
+padding:10px 10px;
+text-decoration:none;
+font-weight:bold;
+background-color:red;
+font-size:28px;
+color:white;
+border-radius:40px;
+}
+.index{
+top:150;
+left:250;
+position:  absolute;
+transform: translate(50%,50%);
+}
+h3{
+font-size:15px;
+color:white;
+margin-bottom:40px;
+}
+h2{
+font-size:50px;
+color:white;
+font-wight:bold;
+}
+h4{
+font-size:25px;
+color:white;
+}
+.TextBox form input:first-child{
+display:inline-block;
+width:100%;
+padding:15px 50px 16px 14px;
+border:3px solid red;
+border-radius:60px;
+}
+.TextBox form input:last-child{
+display:inline-block;
+padding:11px 6px ;
+border:1px solid red;
+border-radius:50px;
+background-color:red;
+color:black;
+margin-left:-84;
+top:148;
+position:absolute;
+box-shadow: 0px 0px 30px black ;
+font-wight:bold;
+font-size:16px;
+}
+.TextBox form input:last-child:hover{
+color: white;
+transition:0.5s;
+}
